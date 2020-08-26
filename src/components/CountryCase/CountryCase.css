@@ -1,0 +1,45 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  color: #6a5d5d;
+  background-color: white;
+  height: 432px;
+}
+
+.table .tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.table .td {
+  padding: 0.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.table .td img {
+  margin-right: 10px;
+  width: 32px;
+}
+
+.table .tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.chartjs-render-monitor {
+  margin: 15px 0;
+  width: 21rem !important;
+  height: 17rem !important;
+}
+
+.linegraph {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .chartjs-render-monitor {
+    width: 19rem !important;
+  }
+}
